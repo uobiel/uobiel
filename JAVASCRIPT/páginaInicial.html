@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image\icons8-login-16.png" type="image/x-icon">
+</head>
+<body>
+    <div id="corpo">
+        <div id="conteudo">
+            <h1>Seja bem vindo</h1>
+            <input type="email" name="email" id="login" placeholder="Email">
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <input type="submit" value="Entrar" onclick="logar(); return false" id="entrar" onmouseenter="entrar">
+
+            <p>Não possúi cadastro? Entre em contato e realize o seu pelo <img src="image/icons8-whatsapp-16.png" alt="ico"> <a href="https://wa.me/51993180317" target="_blank">Whatsapp</a></p>
+        </div>
+    </div>
+
+    <script>
+        function logar(){
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == "gabrielantunesabc@gmail.com" && senha == "98811951") {
+                location.href = "home.html";
+            } else{
+                alert('Usuário ou senha incorretos')
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
