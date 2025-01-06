@@ -1,6 +1,6 @@
 <h2 align="left">Olá, bem-vindo ao meu perfil do Github 👋</h2>
 
-<h4 align="left">Saiba mais sobre mim no meu Portifólio: https://uobiel.github.io/portifolioQA/👋</h4>
+<h4 align="left">Saiba mais sobre mim no meu Portifólio: https://uobiel.github.io/portifolioQA/</h4>
 
 ###
 
